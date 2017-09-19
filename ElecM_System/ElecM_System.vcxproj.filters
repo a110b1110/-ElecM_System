@@ -15,6 +15,9 @@
     <Filter Include="소스 파일\User">
       <UniqueIdentifier>{8aa04b7f-ebe3-48f2-9a0f-b5df3abe7dfb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\List">
+      <UniqueIdentifier>{f31d62f7-e462-4adf-824d-439792e7d5cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ElectricalSystemMain.cpp">
@@ -23,6 +26,9 @@
     <ClCompile Include="User.cpp">
       <Filter>소스 파일\User</Filter>
     </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>소스 파일\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -30,6 +36,9 @@
     </ClInclude>
     <ClInclude Include="User.h">
       <Filter>소스 파일\User</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>소스 파일\List</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
