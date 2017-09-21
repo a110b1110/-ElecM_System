@@ -2,24 +2,21 @@
 #ifndef  __USER_H__
 #define __USER_H__
 #include <iostream>
+#include "Daily.h"
 using namespace std;
 
 class User
 {
 private:
 	char*	userName;		// 유저이름
-public :
-	User*	prev;
-	User*	next;
-	
+//	Daily*	date;
 public:
 	char*	GetName(void);
-	void	is_Init(void);
+	void	is_InitUser(void);
 public:
 	User();
 	~User();
 };
 
-User* head;
-User* tail;
+extern User user;
 #endif // ! __USER_H__

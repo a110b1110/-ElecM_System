@@ -146,11 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Daily.cpp" />
+    <ClCompile Include="elecManager.cpp" />
     <ClCompile Include="ElectricalSystemMain.cpp" />
     <ClCompile Include="List.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Daily.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="elecManager.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="User.h" />
