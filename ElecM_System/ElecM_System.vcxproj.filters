@@ -15,9 +15,6 @@
     <Filter Include="소스 파일\User">
       <UniqueIdentifier>{8aa04b7f-ebe3-48f2-9a0f-b5df3abe7dfb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\List">
-      <UniqueIdentifier>{f31d62f7-e462-4adf-824d-439792e7d5cb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Daily">
       <UniqueIdentifier>{8c46e031-40b3-4fe3-8c37-44e8c4daac65}</UniqueIdentifier>
     </Filter>
@@ -30,6 +27,9 @@
     <Filter Include="소스 파일\Manager\elecManager">
       <UniqueIdentifier>{a4e2f51d-dc6b-450e-9b02-9743e4c121d2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\List">
+      <UniqueIdentifier>{b3e635c4-6cce-4258-8f1b-a8f13ccb876c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ElectricalSystemMain.cpp">
@@ -38,14 +38,14 @@
     <ClCompile Include="User.cpp">
       <Filter>소스 파일\User</Filter>
     </ClCompile>
-    <ClCompile Include="List.cpp">
-      <Filter>소스 파일\List</Filter>
-    </ClCompile>
     <ClCompile Include="Daily.cpp">
       <Filter>소스 파일\Daily</Filter>
     </ClCompile>
     <ClCompile Include="elecManager.cpp">
       <Filter>소스 파일\Manager\elecManager</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>소스 파일\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,9 +55,6 @@
     <ClInclude Include="User.h">
       <Filter>소스 파일\User</Filter>
     </ClInclude>
-    <ClInclude Include="List.h">
-      <Filter>소스 파일\List</Filter>
-    </ClInclude>
     <ClInclude Include="Daily.h">
       <Filter>소스 파일\Daily</Filter>
     </ClInclude>
@@ -66,6 +63,12 @@
     </ClInclude>
     <ClInclude Include="elecManager.h">
       <Filter>소스 파일\Manager\elecManager</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>소스 파일\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Ptrtemplate.h">
+      <Filter>소스 파일\Defalt</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

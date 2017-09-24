@@ -1,33 +1,39 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "User.h"
 
-User user;
-
-char* User::GetName(void)
-{
-	return userName;
-}
-
 void User::is_InitUser(void)
 {
-	char* username;
-	username = new char[20];
-	cout << "유저 등록 이름을 입력해주세요 >>";
-	cin >> username;
+	User user;
+	char name[20];
+	int len;
 
-	strcpy(userName, username);
-	cout << "안녕하세요" << userName << "님" << endl;
-	delete[] username;
+	std::cout << "유저 등록 이름을 입력해주세요 >>";
+	std::cin >> name;
+	len = (int)strlen(name);
+	user.userName = new char[len + 1];
+	strcpy((user.userName), name);
+	std::cout << "안녕하세요" << user.userName << "님" << std::endl;
 
 	return;
 }
 
+bool User::is_UserName(void)
+{
+	if (GetUser()->userName != 0) 
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
 User::User()
 {
-	userName = new char[20];
+	userName = 0;
 }
 
 User::~User()
 {
-	delete[] userName;
 }

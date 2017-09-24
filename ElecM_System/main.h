@@ -5,4 +5,6 @@
 #include <iostream>
 #include "elecManager.h"
 #include "Daily.h"
+#include "List.h"
+
 #endif // ! __MAIN_H__
